@@ -1,0 +1,65 @@
+[
+  {
+    "region": "Asia",
+    "gasoline_avg": 1.21,
+    "diesel_avg": 1.08,
+    "lpg_avg": 0.61,
+    "cng_avg": 0.44,
+    "countries": 28,
+    "color": "#4ECDC4"
+  },
+  {
+    "region": "Europe",
+    "gasoline_avg": 1.89,
+    "diesel_avg": 1.72,
+    "lpg_avg": 0.98,
+    "cng_avg": 0.79,
+    "countries": 38,
+    "color": "#45B7D1"
+  },
+  {
+    "region": "North America",
+    "gasoline_avg": 1.12,
+    "diesel_avg": 1.04,
+    "lpg_avg": 0.68,
+    "cng_avg": 0.51,
+    "countries": 8,
+    "color": "#96CEB4"
+  },
+  {
+    "region": "South America",
+    "gasoline_avg": 1.04,
+    "diesel_avg": 0.92,
+    "lpg_avg": 0.56,
+    "cng_avg": 0.41,
+    "countries": 12,
+    "color": "#FFEAA7"
+  },
+  {
+    "region": "Middle East",
+    "gasoline_avg": 0.52,
+    "diesel_avg": 0.44,
+    "lpg_avg": 0.28,
+    "cng_avg": 0.19,
+    "countries": 14,
+    "color": "#DDA0DD"
+  },
+  {
+    "region": "Africa",
+    "gasoline_avg": 1.08,
+    "diesel_avg": 0.96,
+    "lpg_avg": 0.62,
+    "cng_avg": 0.48,
+    "countries": 22,
+    "color": "#F0A500"
+  },
+  {
+    "region": "Oceania",
+    "gasoline_avg": 1.54,
+    "diesel_avg": 1.41,
+    "lpg_avg": 0.84,
+    "cng_avg": 0.65,
+    "countries": 6,
+    "color": "#FF6B6B"
+  }
+]
