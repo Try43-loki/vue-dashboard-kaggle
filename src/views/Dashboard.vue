@@ -30,6 +30,12 @@ const filters = ref<FilterState>({
 })
 
 onMounted(async () => {
+  await loadData()
+})
+
+async function loadData() {
+  loading.value = true
+  error.value = null
   try {
     data.value = await dataService.loadAll()
   } catch (e) {
@@ -37,7 +43,7 @@ onMounted(async () => {
   } finally {
     loading.value = false
   }
-})
+}
 
 const filteredPrices = computed(() => {
   if (!data.value) return []
@@ -59,7 +65,7 @@ const filteredTimeSeries = computed(() => {
 })
 
 function reload() {
-  window.location.reload()
+  void loadData()
 }
 
 function onFilterChange(newFilters: FilterState) {

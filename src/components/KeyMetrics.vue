@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { SummaryData, FuelType } from '@/types'
 
 const props = defineProps<{
@@ -18,7 +19,7 @@ function fmt(n: number | null | undefined) {
   return n == null ? 'N/A' : `$${n.toFixed(3)}`
 }
 
-const metrics: Metric[] = [
+const metrics = computed<Metric[]>(() => [
   {
     label: 'Avg Gasoline Price',
     value: fmt(props.summary.summary_stats.gasoline?.mean),
@@ -67,7 +68,7 @@ const metrics: Metric[] = [
     icon: '🌍',
     color: '#FBBF24',
   },
-]
+])
 </script>
 
 <template>

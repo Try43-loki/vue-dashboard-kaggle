@@ -4,7 +4,7 @@
     "source": "Kaggle - zkskhurram/world-vs-asia-fuel-prices",
     "last_updated": "2024-01-15",
     "total_records": 1247,
-    "date_range": "2019-01 to 2024-01",
+    "date_range": ["2019-01", "2024-01"],
     "fuel_types": ["Gasoline", "Diesel", "LPG", "CNG"],
     "regions": ["Asia", "Europe", "North America", "South America", "Middle East", "Africa", "Oceania"]
   },
